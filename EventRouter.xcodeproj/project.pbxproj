@@ -15,6 +15,14 @@
 		0D32A748204A698E00314FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A747204A698E00314FA2 /* main.m */; };
 		0D32A752204A698E00314FA2 /* EventRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A751204A698E00314FA2 /* EventRouterTests.m */; };
 		0D32A75D204A698E00314FA2 /* EventRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A75C204A698E00314FA2 /* EventRouterUITests.m */; };
+		0D32A76F204A69B000314FA2 /* UIResponder+RouterEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A76C204A69B000314FA2 /* UIResponder+RouterEvent.m */; };
+		0D32A770204A69B000314FA2 /* UIView+RouterEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A76E204A69B000314FA2 /* UIView+RouterEvent.m */; };
+		0D32A773204A69DE00314FA2 /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A772204A69DE00314FA2 /* AView.m */; };
+		0D32A776204A69E900314FA2 /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A775204A69E900314FA2 /* BView.m */; };
+		0D32A779204A69F700314FA2 /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A778204A69F700314FA2 /* CView.m */; };
+		0D32A77C204A6A0800314FA2 /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A77B204A6A0800314FA2 /* DView.m */; };
+		0D32A77E204A6C3A00314FA2 /* BView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D32A77D204A6C3A00314FA2 /* BView.xib */; };
+		0D32A780204A6C4700314FA2 /* DView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D32A77F204A6C4700314FA2 /* DView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,20 @@
 		0D32A758204A698E00314FA2 /* EventRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D32A75C204A698E00314FA2 /* EventRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventRouterUITests.m; sourceTree = "<group>"; };
 		0D32A75E204A698E00314FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D32A76B204A69B000314FA2 /* UIResponder+RouterEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+RouterEvent.h"; sourceTree = "<group>"; };
+		0D32A76C204A69B000314FA2 /* UIResponder+RouterEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+RouterEvent.m"; sourceTree = "<group>"; };
+		0D32A76D204A69B000314FA2 /* UIView+RouterEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RouterEvent.h"; sourceTree = "<group>"; };
+		0D32A76E204A69B000314FA2 /* UIView+RouterEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RouterEvent.m"; sourceTree = "<group>"; };
+		0D32A771204A69DE00314FA2 /* AView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
+		0D32A772204A69DE00314FA2 /* AView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
+		0D32A774204A69E900314FA2 /* BView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		0D32A775204A69E900314FA2 /* BView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		0D32A777204A69F700314FA2 /* CView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		0D32A778204A69F700314FA2 /* CView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
+		0D32A77A204A6A0800314FA2 /* DView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DView.h; sourceTree = "<group>"; };
+		0D32A77B204A6A0800314FA2 /* DView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
+		0D32A77D204A6C3A00314FA2 /* BView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BView.xib; sourceTree = "<group>"; };
+		0D32A77F204A6C4700314FA2 /* DView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +127,17 @@
 				0D32A739204A698D00314FA2 /* AppDelegate.m */,
 				0D32A73B204A698D00314FA2 /* ViewController.h */,
 				0D32A73C204A698D00314FA2 /* ViewController.m */,
+				0D32A771204A69DE00314FA2 /* AView.h */,
+				0D32A772204A69DE00314FA2 /* AView.m */,
+				0D32A774204A69E900314FA2 /* BView.h */,
+				0D32A775204A69E900314FA2 /* BView.m */,
+				0D32A77D204A6C3A00314FA2 /* BView.xib */,
+				0D32A777204A69F700314FA2 /* CView.h */,
+				0D32A778204A69F700314FA2 /* CView.m */,
+				0D32A77A204A6A0800314FA2 /* DView.h */,
+				0D32A77B204A6A0800314FA2 /* DView.m */,
+				0D32A77F204A6C4700314FA2 /* DView.xib */,
+				0D32A76A204A69B000314FA2 /* BXLEventChain */,
 				0D32A73E204A698D00314FA2 /* Main.storyboard */,
 				0D32A741204A698D00314FA2 /* Assets.xcassets */,
 				0D32A743204A698D00314FA2 /* LaunchScreen.storyboard */,
@@ -130,6 +163,17 @@
 				0D32A75E204A698E00314FA2 /* Info.plist */,
 			);
 			path = EventRouterUITests;
+			sourceTree = "<group>";
+		};
+		0D32A76A204A69B000314FA2 /* BXLEventChain */ = {
+			isa = PBXGroup;
+			children = (
+				0D32A76B204A69B000314FA2 /* UIResponder+RouterEvent.h */,
+				0D32A76C204A69B000314FA2 /* UIResponder+RouterEvent.m */,
+				0D32A76D204A69B000314FA2 /* UIView+RouterEvent.h */,
+				0D32A76E204A69B000314FA2 /* UIView+RouterEvent.m */,
+			);
+			path = BXLEventChain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +285,8 @@
 				0D32A745204A698D00314FA2 /* LaunchScreen.storyboard in Resources */,
 				0D32A742204A698D00314FA2 /* Assets.xcassets in Resources */,
 				0D32A740204A698D00314FA2 /* Main.storyboard in Resources */,
+				0D32A780204A6C4700314FA2 /* DView.xib in Resources */,
+				0D32A77E204A6C3A00314FA2 /* BView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +311,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D32A77C204A6A0800314FA2 /* DView.m in Sources */,
+				0D32A779204A69F700314FA2 /* CView.m in Sources */,
+				0D32A773204A69DE00314FA2 /* AView.m in Sources */,
+				0D32A770204A69B000314FA2 /* UIView+RouterEvent.m in Sources */,
 				0D32A73D204A698D00314FA2 /* ViewController.m in Sources */,
 				0D32A748204A698E00314FA2 /* main.m in Sources */,
+				0D32A76F204A69B000314FA2 /* UIResponder+RouterEvent.m in Sources */,
 				0D32A73A204A698D00314FA2 /* AppDelegate.m in Sources */,
+				0D32A776204A69E900314FA2 /* BView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

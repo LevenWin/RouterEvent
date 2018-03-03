@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "AView.h"
+#import "CView.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet AView *aView;
+@property (strong, nonatomic) IBOutlet CView *cView;
 
 @end
 
@@ -16,13 +21,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
