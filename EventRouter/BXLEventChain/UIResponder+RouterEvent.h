@@ -11,8 +11,7 @@
 @interface UIResponder (RouterEvent)
 
 /**
- 视图类重写该方法，可以获取视图链上分发的所有事件 见 ‘UIView+RouterEvent’文件
-
+ UIResponder类重写该方法，可以获取视图链上分发的所有事件 见 ‘UIView+RouterEvent’文件
  @param eventName 事件名字
  @param params 事件参数
  */
