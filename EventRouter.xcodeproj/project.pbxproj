@@ -23,6 +23,8 @@
 		0D32A77C204A6A0800314FA2 /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A77B204A6A0800314FA2 /* DView.m */; };
 		0D32A77E204A6C3A00314FA2 /* BView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D32A77D204A6C3A00314FA2 /* BView.xib */; };
 		0D32A780204A6C4700314FA2 /* DView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D32A77F204A6C4700314FA2 /* DView.xib */; };
+		0D61C93D2052729400B60A36 /* BSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C93C2052729400B60A36 /* BSView.m */; };
+		0D61C940205272A100B60A36 /* DSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C93F205272A100B60A36 /* DSView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,10 @@
 		0D32A77B204A6A0800314FA2 /* DView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
 		0D32A77D204A6C3A00314FA2 /* BView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BView.xib; sourceTree = "<group>"; };
 		0D32A77F204A6C4700314FA2 /* DView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DView.xib; sourceTree = "<group>"; };
+		0D61C93B2052729400B60A36 /* BSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSView.h; sourceTree = "<group>"; };
+		0D61C93C2052729400B60A36 /* BSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSView.m; sourceTree = "<group>"; };
+		0D61C93E205272A100B60A36 /* DSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSView.h; sourceTree = "<group>"; };
+		0D61C93F205272A100B60A36 /* DSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,11 +137,15 @@
 				0D32A772204A69DE00314FA2 /* AView.m */,
 				0D32A774204A69E900314FA2 /* BView.h */,
 				0D32A775204A69E900314FA2 /* BView.m */,
+				0D61C93B2052729400B60A36 /* BSView.h */,
+				0D61C93C2052729400B60A36 /* BSView.m */,
 				0D32A77D204A6C3A00314FA2 /* BView.xib */,
 				0D32A777204A69F700314FA2 /* CView.h */,
 				0D32A778204A69F700314FA2 /* CView.m */,
 				0D32A77A204A6A0800314FA2 /* DView.h */,
 				0D32A77B204A6A0800314FA2 /* DView.m */,
+				0D61C93E205272A100B60A36 /* DSView.h */,
+				0D61C93F205272A100B60A36 /* DSView.m */,
 				0D32A77F204A6C4700314FA2 /* DView.xib */,
 				0D32A76A204A69B000314FA2 /* BXLEventChain */,
 				0D32A73E204A698D00314FA2 /* Main.storyboard */,
@@ -313,6 +323,7 @@
 			files = (
 				0D32A77C204A6A0800314FA2 /* DView.m in Sources */,
 				0D32A779204A69F700314FA2 /* CView.m in Sources */,
+				0D61C940205272A100B60A36 /* DSView.m in Sources */,
 				0D32A773204A69DE00314FA2 /* AView.m in Sources */,
 				0D32A770204A69B000314FA2 /* UIView+RouterEvent.m in Sources */,
 				0D32A73D204A698D00314FA2 /* ViewController.m in Sources */,
@@ -320,6 +331,7 @@
 				0D32A76F204A69B000314FA2 /* UIResponder+RouterEvent.m in Sources */,
 				0D32A73A204A698D00314FA2 /* AppDelegate.m in Sources */,
 				0D32A776204A69E900314FA2 /* BView.m in Sources */,
+				0D61C93D2052729400B60A36 /* BSView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

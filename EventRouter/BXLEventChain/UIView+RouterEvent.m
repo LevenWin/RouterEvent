@@ -20,15 +20,21 @@
     return (id)currentResponsder.nextResponder;
 }
 
-- (void)routerEvent:(NSString *)eventName params:(id)params {
+- (UIView *)routerEvent:(NSString *)eventName params:(id)params {
     NSMutableArray *subViews = self.subviews.mutableCopy;
-    while (subViews.count > 0) {
+    UIView *targetView = nil;
+    while (subViews.count > 0
+           && !targetView) {
         UIView *view = subViews.firstObject;
         if (!view.hidden && view.alpha >= 0.01) {
-            [view routerEvent:eventName params:params];
-            [view observeEvent:eventName params:params];
+            if ([view observeEvent:eventName params:params]) {
+                targetView = view;
+            }else{
+                targetView = [view routerEvent:eventName params:params];
+            }
         }
         [subViews removeObject:view];
     }
+    return targetView;
 }
 @end

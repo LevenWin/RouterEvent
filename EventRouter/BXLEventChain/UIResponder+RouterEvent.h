@@ -16,6 +16,6 @@
  @param eventName 事件名字
  @param params 事件参数
  */
-- (void)observeEvent:(NSString *)eventName params:(id)params;
+- (BOOL)observeEvent:(NSString *)eventName params:(id)params;
 
 @end

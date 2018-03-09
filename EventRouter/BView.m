@@ -13,14 +13,17 @@
 NSString *const kREKForBViewCallJiake = @"kREKForBViewCallJiake";
 @implementation BView
 - (IBAction)buttonClick:(id)sender {
-    [self.topVC.view routerEvent:kREKForBViewCallJiake params:@"肉丝：哦，夹克，你在哪？"];
+   UIView *targetView = [self.topVC.view routerEvent:kREKForBViewCallJiake params:@"肉丝：哦，夹克，你在哪？"];
+    NSLog(@"targetView = %@",targetView);
 }
 
-- (void)observeEvent:(NSString *)eventName params:(id)params {
+- (BOOL)observeEvent:(NSString *)eventName params:(id)params {
     if ([eventName isEqualToString:kREKForBViewCallRousi]) {
         NSLog(@"%@",params);
         NSLog(@"肉丝:哦，夹克，我在BView");
+        return YES;
     }
+    return NO;
 }
 
 

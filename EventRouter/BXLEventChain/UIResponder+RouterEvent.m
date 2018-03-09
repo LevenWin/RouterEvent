@@ -10,8 +10,8 @@
 
 @implementation UIResponder (RouterEvent)
 
-- (void)observeEvent:(NSString *)eventName params:(id)params {
-    
+- (BOOL)observeEvent:(NSString *)eventName params:(id)params {
+    return NO;
 }
 
 @end

@@ -22,11 +22,21 @@
                         <action selector="buttonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="SWa-p0-pAY"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fAF-Hb-Rv3" customClass="DSView">
+                    <rect key="frame" x="67.5" y="368.5" width="240" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="czz-sr-pQS"/>
+                        <constraint firstAttribute="height" constant="30" id="sl9-gh-DGh"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="yRp-6W-H20" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="8kP-Ss-Yrg"/>
                 <constraint firstItem="yRp-6W-H20" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="U56-g2-fIu"/>
+                <constraint firstItem="fAF-Hb-Rv3" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="qWr-nu-Z35"/>
+                <constraint firstItem="fAF-Hb-Rv3" firstAttribute="top" secondItem="yRp-6W-H20" secondAttribute="bottom" constant="10" id="v8h-Pl-YCm"/>
                 <constraint firstItem="yRp-6W-H20" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="wsZ-e7-hDr"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
