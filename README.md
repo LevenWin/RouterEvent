@@ -17,8 +17,9 @@
 	 @param eventName 事件名字 统一使用 kREKFor+文件名标志+事件标志，例如‘BXLMerchantProducView.m’ 里productCell的点击事件，eventName可以为 kREKForMerchantProducViewClickProduct；
 	 
 	 @param params 附带的参数
+	 @return 返回targetView
 	 */
-	- (void)routerEvent:(NSString *)eventName params:(id)params;
+	- (UIView *)routerEvent:(NSString *)eventName params:(id)params;
 	
 	@end
 ```
@@ -37,8 +38,9 @@ DView向BView发送事件的时候
 	
 	 @param eventName 事件名字
 	 @param params 事件参数
+	 @param return BOOl 是否处理该事件
 	 */
-	- (void)observeEvent:(NSString *)eventName params:(id)params;
+	- (BOOL)observeEvent:(NSString *)eventName params:(id)params;
 	
 	@end
 ```
